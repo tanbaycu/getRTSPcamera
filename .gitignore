@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+
+# Generated files
+camera_list.txt
+events/
+
+# Legacy/Backup
+legacy/
+*.bak

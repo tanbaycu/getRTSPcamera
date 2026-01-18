@@ -1,0 +1,25 @@
+✅ Hướng dẫn điều chỉnh độ nhạy
+
+CONF_THRESHOLD:
+
+Giảm → nhạy hơn nhưng nhiều false positive.
+
+Tăng → ít false positive nhưng có thể bỏ sót bóng nhỏ.
+
+PIXEL_COUNT_THRESHOLD:
+
+Giảm → nhạy hơn với bóng nhỏ.
+
+Tăng → bỏ bóng nhỏ, chỉ nhận bóng lớn.
+
+SENSITIVITY:
+
+Giảm → nhạy hơn với bóng có ít pixel màu.
+
+Tăng → tránh cảnh báo giả khi background có màu tương tự.
+
+Kích thước camera live: LIVE_WIDTH, LIVE_HEIGHT
+
+Nhỏ → xử lý nhanh, YOLO inference nhanh hơn.
+
+Lớn → chi tiết hơn nhưng FPS thấp hơn.
